@@ -3,7 +3,7 @@ Marvel App in Swift using MVVM Architecture
 
 # About
 
-The app processes the Marvel API to display descriptions and images of the characters in the Marvel universe. This project has been implemented in Swift.
+The app displays the Marvel characters and its individual character details by using the Marvel API. This project has been implemented in Swift.
 
 # Features
 
