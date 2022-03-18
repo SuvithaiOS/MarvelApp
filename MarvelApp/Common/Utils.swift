@@ -21,6 +21,12 @@ enum ErrorString: String {
          connectToInternet = "Please connect to internet"
 }
 
+enum ErrorMessage: String {
+    case invalidAPIKey = "The passed API key is invalid.",
+         invalidCredetial = "InvalidCredentials",
+         vaildTimeStamp = "You must provide a timestamp.",
+         missingParams = "MissingParameter"
+}
 
 class Utils: NSObject {
     

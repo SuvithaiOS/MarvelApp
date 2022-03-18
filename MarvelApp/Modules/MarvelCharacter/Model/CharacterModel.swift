@@ -12,6 +12,7 @@ import Foundation
 struct CharacterDataModel: Decodable {
     
     var data: CharacterResultModel?
+    var status: String?
 }
 
 struct CharacterResultModel: Decodable {
@@ -40,3 +41,8 @@ struct ThumbnailUrl: Decodable {
     }
 }
 
+struct ErrorHandlingModel: Decodable {
+    
+    let code: String?
+    let message: String?
+}
